@@ -1,7 +1,7 @@
 {
-  "full_name": "Audrey Roy Greenfeld",
-  "email": "aroy@alum.mit.edu",
-  "github_username": "audreyr",
+  "full_name": "18F",
+  "email": "you@gsa.gov",
+  "github_username": "18F",
   "project_name": "Python Boilerplate",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
   "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
@@ -11,5 +11,5 @@
   "use_pypi_deployment_with_travis": "y",
   "command_line_interface": ["Click", "No command-line interface"],
   "create_author_file": "y",
-  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+  "open_source_license": ["CC0 license"]
 }

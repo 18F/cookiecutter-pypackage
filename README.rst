@@ -3,14 +3,15 @@ Cookiecutter PyPackage
 ======================
 
 .. image:: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/shield.svg
-     :target: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/
+     :target: https://pyup.io/repos/github/18f/cookiecutter-pypackage/
      :alt: Updates
 
-Cookiecutter_ template for a Python package.
+Cookiecutter_ template for an 18F Python package.  Forked from
+https://github.com/audreyr/cookiecutter-pypackage/, with changes
+to comply with 18F's practices.
 
-* GitHub repo: https://github.com/audreyr/cookiecutter-pypackage/
+* GitHub repo: https://github.com/18F/cookiecutter-pypackage/
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
-* Free software: BSD license
 
 Features
 --------
@@ -23,21 +24,21 @@ Features
 * Auto-release to PyPI_ when you push a new tag to master (optional)
 * Command line interface using Click (optional)
 
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _Cookiecutter: https://github.com/18f/cookiecutter
 
 Build Status
 -------------
 
 Linux:
 
-.. image:: https://img.shields.io/travis/audreyr/cookiecutter-pypackage.svg
-    :target: https://travis-ci.org/audreyr/cookiecutter-pypackage
+.. image:: https://img.shields.io/travis/18f/cookiecutter-pypackage.svg
+    :target: https://travis-ci.org/18f/cookiecutter-pypackage
     :alt: Linux build status on Travis CI
 
 Windows:
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/audreyr/cookiecutter-pypackage?branch=master
-    :target: https://ci.appveyor.com/project/audreyr/cookiecutter-pypackage/branch/master
+.. image:: https://ci.appveyor.com/api/projects/status/github/18f/cookiecutter-pypackage?branch=master
+    :target: https://ci.appveyor.com/project/18f/cookiecutter-pypackage/branch/master
     :alt: Windows build status on Appveyor
 
 Quickstart
@@ -50,7 +51,7 @@ Cookiecutter 1.4.0 or higher)::
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/18f/cookiecutter-pypackage.git
 
 Then:
 
@@ -71,58 +72,15 @@ For more details, see the `cookiecutter-pypackage tutorial`_.
 
 .. _`cookiecutter-pypackage tutorial`: https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
 
-Not Exactly What You Want?
---------------------------
+License
+-------
 
-Don't worry, you have options:
+https://github.com/audreyr/cookiecutter-pypackage is licensed under the
+BSD license.  The small modifications to it in this fork, as a work
+of the United States Government, are under the
+public domain within the United States.
 
-Similar Cookiecutter Templates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Additionally, 18F waives copyright and related rights to its modifications
+worldwide through the `CC0`_ 1.0 Universal public domain dedication.
 
-* `Nekroze/cookiecutter-pypackage`_: A fork of this with a PyTest test runner,
-  strict flake8 checking with Travis/Tox, and some docs and `setup.py` differences.
-
-* `tony/cookiecutter-pypackage-pythonic`_: Fork with py2.7+3.3 optimizations.
-  Flask/Werkzeug-style test runner, ``_compat`` module and module/doc conventions.
-  See ``README.rst`` or the `github comparison view`_ for exhaustive list of
-  additions and modifications.
-
-* `ardydedase/cookiecutter-pypackage`_: A fork with separate requirements files rather than a requirements list in the ``setup.py`` file.
-
-* Also see the `network`_ and `family tree`_ for this repo. (If you find
-  anything that should be listed here, please add it and send a pull request!)
-
-Fork This / Create Your Own
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-If you have differences in your preferred setup, I encourage you to fork this
-to create your own version. Or create your own; it doesn't strictly have to
-be a fork.
-
-* Once you have your own version working, add it to the Similar Cookiecutter
-  Templates list above with a brief description.
-
-* It's up to you whether or not to rename your fork/own version. Do whatever
-  you think sounds good.
-
-Or Submit a Pull Request
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-I also accept pull requests on this, if they're small, atomic, and if they
-make my own packaging experience better.
-
-
-.. _Travis-CI: http://travis-ci.org/
-.. _Tox: http://testrun.org/tox/
-.. _Sphinx: http://sphinx-doc.org/
-.. _ReadTheDocs: https://readthedocs.io/
-.. _`pyup.io`: https://pyup.io/
-.. _Bumpversion: https://github.com/peritus/bumpversion
-.. _PyPi: https://pypi.python.org/pypi
-
-.. _`Nekroze/cookiecutter-pypackage`: https://github.com/Nekroze/cookiecutter-pypackage
-.. _`tony/cookiecutter-pypackage-pythonic`: https://github.com/tony/cookiecutter-pypackage-pythonic
-.. _`ardydedase/cookiecutter-pypackage`: https://github.com/ardydedase/cookiecutter-pypackage
-.. _github comparison view: https://github.com/tony/cookiecutter-pypackage-pythonic/compare/audreyr:master...master
-.. _`network`: https://github.com/audreyr/cookiecutter-pypackage/network
-.. _`family tree`: https://github.com/audreyr/cookiecutter-pypackage/network/members
+.. _`CC0`: https://creativecommons.org/publicdomain/zero/1.0

@@ -21,6 +21,7 @@ test_requirements = [
 ]
 
 {%- set license_classifiers = {
+    'CC0 license': 'License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication',
     'MIT license': 'License :: OSI Approved :: MIT License',
     'BSD license': 'License :: OSI Approved :: BSD License',
     'ISC license': 'License :: OSI Approved :: ISC License (ISCL)',
