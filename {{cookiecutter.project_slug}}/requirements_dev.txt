@@ -10,4 +10,7 @@ Sphinx==1.4.4
 cryptography==1.4
 PyYAML==3.11{% endif %}
 {% if cookiecutter.use_pytest == 'y' -%}
-pytest==2.9.2{%- endif %}
+pytest
+pytest-cov
+{%- endif %}
+codeclimate-test-reporter
