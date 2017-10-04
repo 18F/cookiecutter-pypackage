@@ -37,7 +37,7 @@ Linux:
 
 Windows:
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/18f/cookiecutter-pypackage?branch=master
+.. image:: https://ci.appveyor.com/api/projects/status/github/18f/cookiecutter-pypackage?branch=master&svg=true
     :target: https://ci.appveyor.com/project/18f/cookiecutter-pypackage/branch/master
     :alt: Windows build status on Appveyor
 
