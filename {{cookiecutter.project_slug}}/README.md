@@ -3,7 +3,6 @@
 # {{ cookiecutter.project_name }}
 
 [![PyPI Status](https://img.shields.io/pypi/v/{{ cookiecutter.project_slug }}.svg)](https://pypi.python.org/pypi/{{ cookiecutter.project_slug }})
-[![Build Status](https://img.shields.io/travis/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg?branch=master)](https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }})
 [![Coverage Status](https://coveralls.io/repos/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg?branch=master)](https://coveralls.io/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}?branch=master)
 [![Code Climate](https://codeclimate.com/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg)](https://codeclimate.com/github/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }})
 [![Accessibility](https://continua11y.18f.gov/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}?branch=master)](https://continua11y.18f.gov/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }})
@@ -12,11 +11,6 @@
 <a href="https://pypi.python.org/pypi/{{ cookiecutter.project_slug }}">
   <img src="https://img.shields.io/pypi/v/{{ cookiecutter.project_slug }}.svg"
   alt="PyPI shield">
-</a>
-
-<a href="https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}">
-  <img src="https://img.shields.io/travis/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.svg"
-  alt="Travis shield">
 </a>
 
 <a href="https://{{ cookiecutter.project_slug | replace("_", "-") }}.readthedocs.io/en/latest/?badge=latest ">

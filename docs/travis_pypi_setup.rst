@@ -1,6 +1,13 @@
 .. _travis-pypi-setup:
 
 
+**DEPRECATED.**
+===============
+
+Travis has not been approved for use with TTS projects.  CircleCI
+is recommended instead; CircleCI instructions are pending (and would
+be a welcome pull request!)
+
 Travis/PyPI Setup
 =================
 

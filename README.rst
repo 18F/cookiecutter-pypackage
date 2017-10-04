@@ -17,7 +17,6 @@ Features
 --------
 
 * Testing setup with ``unittest`` and ``python setup.py test`` or ``py.test``
-* Travis-CI_: Ready for Travis Continuous Integration testing
 * Tox_ testing: Setup to easily test for Python 2.6, 2.7, 3.3, 3.4, 3.5
 * Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
 * Bumpversion_: Pre-configured version bumping with a single command
@@ -28,12 +27,6 @@ Features
 
 Build Status
 -------------
-
-Linux:
-
-.. image:: https://img.shields.io/travis/18f/cookiecutter-pypackage.svg
-    :target: https://travis-ci.org/18f/cookiecutter-pypackage
-    :alt: Linux build status on Travis CI
 
 Windows:
 
@@ -56,10 +49,7 @@ Generate a Python package project::
 Then:
 
 * Create a repo and put it there.
-* Add the repo to your Travis-CI_ account.
 * Install the dev requirements into a virtualenv. (``pip install -r requirements_dev.txt``)
-* Run the script `travis_pypi_setup.py` to encrypt your PyPI password in Travis config
-  and activate automated deployment on PyPI when you push a new tag to master branch.
 * Add the repo to your ReadTheDocs_ account + turn on the ReadTheDocs service hook.
 * Release your package by pushing a new tag to master.
 * Add a `requirements.txt` file that specifies the packages you will need for
